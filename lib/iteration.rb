@@ -23,9 +23,9 @@ def find_greater_pair(src)
   # that are in the inner Arrays
 new_array = []
 
-  src.each do |pair|
-    num1 = pair[0]
-    num2 = pair[1]
+  src.each do |i|
+    num1 = i[0]
+    num2 = i[1]
 
     if num1 > num2
         new_array << num1
