@@ -25,8 +25,12 @@ new_array = []
 
 counter = 0
 while counter < src.size do
-  if src[i][0]
-
+  if src[counter][0] > src[counter][1]
+    new_array << src[counter][0]
+  else new_array << src[counter][1]
+  end
+  
+  new_array
 end
 
 def total_even_pairs(src)
