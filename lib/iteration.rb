@@ -50,6 +50,7 @@ def total_even_pairs(src)
     if ((src[counter][0] % 2 == 0) and (src[counter][1]) % 2 == 0)
         total += src[counter][0] + src[counter][1]
     end
+    counter += 1
   end
   total
 end
