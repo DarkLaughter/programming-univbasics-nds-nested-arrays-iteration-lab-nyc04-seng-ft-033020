@@ -8,11 +8,11 @@ def join_ingredients(src)
   # As such, there should be a new String for each inner array, or pair
   newarray = []
 
-  index = 0
-  while index < src.length do
-    innerarray = src[index]
+  counter = 0
+  while counter < src.length do
+    innerarray = src[counter]
     newarray <<"I love #{innerarray[0]} and #{innerarray[1]} on my pizza"
-    index +=1
+    counter +=1
     end
     newarray
 end
@@ -23,17 +23,10 @@ def find_greater_pair(src)
   # that are in the inner Arrays
 new_array = []
 
-  src.each do |i|
-    num1 = i[0]
-    num2 = i[1]
+counter = 0
+while counter < src.size do
+  if src[i][0]
 
-    if num1 > num2
-        new_array << num1
-    else
-        new_array << num2
-    end
-
-  end
 end
 
 def total_even_pairs(src)
