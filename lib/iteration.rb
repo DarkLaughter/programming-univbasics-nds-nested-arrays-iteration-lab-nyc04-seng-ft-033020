@@ -23,7 +23,7 @@ def find_greater_pair(src)
   # that are in the inner Arrays
 new_array = []
 
-  while src.each do |pair|
+  src.each do |pair|
     num1 = pair[0]
     num2 = pair[1]
 
